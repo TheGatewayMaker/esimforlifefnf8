@@ -1,0 +1,214 @@
+/** @import must precede all other statements */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /**
+   * Tailwind CSS theme
+   * tailwind.config.ts expects the following color variables to be expressed as HSL values.
+   * A different format will require also updating the theme in tailwind.config.ts.
+  */
+  :root {
+    /* Light mode: sleek blue & white */
+    --background: 0 0% 100%;
+    --foreground: 222 20% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 20% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 20% 12%;
+
+    --primary: 217 90% 55%; /* brand blue */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 222 20% 12%;
+
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 9% 46%;
+
+    --accent: 217 100% 97%;
+    --accent-foreground: 222 20% 12%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 16% 92%;
+    --input: 220 16% 92%;
+    --ring: 217 90% 55%;
+
+    --radius: 0.75rem;
+
+    /* Sidebar (unused for now, keep consistent) */
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 217 90% 55%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 14% 96%;
+    --sidebar-accent-foreground: 222 20% 12%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217 90% 55%;
+  }
+
+  .dark {
+    /* Dark mode optimized for readability */
+    --background: 222 47% 6%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 8%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 8%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 217 93% 62%;
+    --primary-foreground: 222 80% 8%;
+
+    --secondary: 220 10% 16%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 220 10% 16%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 220 10% 16%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 10% 20%;
+    --input: 220 10% 20%;
+    --ring: 217 93% 62%;
+
+    --sidebar-background: 222 47% 6%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 217 93% 62%;
+    --sidebar-primary-foreground: 0 0% 0%;
+    --sidebar-accent: 220 10% 16%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 220 10% 20%;
+    --sidebar-ring: 217 93% 62%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family:
+      "Inter",
+      ui-sans-serif,
+      system-ui,
+      -apple-system,
+      "Segoe UI",
+      Roboto,
+      "Helvetica Neue",
+      Arial;
+    font-size: 16px;
+    line-height: 1.6;
+    background: linear-gradient(
+      135deg,
+      hsl(var(--background)) 0%,
+      hsl(var(--accent)) 100%
+    );
+    min-height: 100vh;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family:
+      "Poppins",
+      "Inter",
+      ui-sans-serif,
+      system-ui,
+      -apple-system,
+      "Segoe UI",
+      Roboto;
+    letter-spacing: -0.02em;
+    color: hsl(var(--foreground));
+    font-weight: 800;
+    line-height: 1.2;
+  }
+
+  h1 {
+    font-weight: 900;
+    letter-spacing: -0.03em;
+  }
+
+  h2 {
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+
+  p {
+    line-height: 1.7;
+    text-align: justify;
+  }
+
+  :where(p, span, li, h1, h2, h3, h4, h5, h6, a, button, label, td, th) {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  pre,
+  code {
+    overflow-x: auto;
+    white-space: pre;
+  }
+}
+
+@layer components {
+  .chip {
+    @apply inline-flex items-center rounded-full border border-border/70 bg-secondary px-3 py-1 text-xs font-bold text-foreground shadow-sm transition-colors hover:bg-accent;
+  }
+  .stat {
+    @apply flex flex-col items-center justify-center rounded-xl border border-border/60 bg-secondary/30 p-4 text-center transition-all duration-300 hover:bg-secondary/40 h-full min-h-[84px] md:min-h-[96px];
+  }
+  .stat-label {
+    @apply text-sm text-foreground/80 tracking-tight font-bold;
+  }
+  .stat-value {
+    @apply mt-1 text-2xl md:text-3xl font-black;
+  }
+  .feature-mini {
+    @apply inline-flex items-center gap-2 rounded-lg border border-border/60 bg-card/60 px-3 py-2 text-sm font-semibold;
+  }
+  .step {
+    @apply relative rounded-lg border border-border/60 bg-card/60 p-3 font-medium leading-relaxed;
+  }
+  .link {
+    @apply text-primary hover:underline font-semibold;
+  }
+  .price-badge {
+    @apply inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-3 py-1 font-bold text-sm shadow-sm;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background-image: linear-gradient(
+      90deg,
+      hsl(var(--primary)) 0%,
+      hsl(var(--primary) / 0.8) 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+}
