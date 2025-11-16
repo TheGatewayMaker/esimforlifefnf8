@@ -391,7 +391,7 @@ export default function Index() {
       {/* Support Section */}
       <section
         id="support"
-        className="relative py-24 md:py-40 lg:py-48 overflow-hidden"
+        className="relative py-16 sm:py-24 md:py-40 lg:py-48 overflow-hidden"
       >
         {/* Background decoration with smoothened yellow gradient */}
         <div className="absolute inset-0 -z-10">
@@ -399,12 +399,12 @@ export default function Index() {
           <div className="absolute top-0 right-1/3 w-[450px] h-[450px] bg-gradient-to-br from-accent/8 via-accent/4 to-transparent rounded-full blur-[100px]" />
         </div>
 
-        <div className="container">
+        <div className="container px-4 sm:px-0">
           <div className="mx-auto max-w-3xl text-center">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-black mb-8 tracking-tighter">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6 sm:mb-8 tracking-tighter">
               Need Help?
             </h2>
-            <p className="text-lg md:text-xl text-foreground/75 leading-relaxed mb-12 font-medium">
+            <p className="text-base sm:text-lg md:text-xl text-foreground/75 leading-relaxed mb-10 sm:mb-12 font-medium">
               Our dedicated support team is here to assist you 24/7. Contact us
               anytime on WhatsApp or Telegram for quick, professional
               assistance.
