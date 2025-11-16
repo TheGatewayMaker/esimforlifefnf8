@@ -28,19 +28,19 @@ export default function Header() {
   }, [location]);
 
   return (
-    <header className="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b border-accent/10">
-      <div className="container flex items-center justify-between py-3 md:py-4">
+    <header className="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-background/90 border-b border-accent/20">
+      <div className="container flex items-center justify-between py-4 md:py-5">
         <Link to="/" className="flex items-center gap-3 group">
           <div className="relative">
             <img
               src="https://i.ibb.co/rKHZQ6Wn/esim4lifelogo.png"
               alt="esim4life logo"
-              className="h-[52px] w-[52px] md:h-[64px] md:w-[64px] rounded-xl transition-transform duration-300 group-hover:scale-105 shadow-md"
+              className="h-12 w-12 md:h-14 md:w-14 rounded-xl transition-transform duration-300 group-hover:scale-110 shadow-md"
               loading="lazy"
             />
-            <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-accent/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-accent/15 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </div>
-          <span className="font-black tracking-tight text-lg md:text-xl lg:text-2xl bg-gradient-to-r from-foreground to-foreground/80 bg-clip-text">
+          <span className="font-black tracking-tight text-lg md:text-2xl lg:text-2xl bg-gradient-to-r from-foreground via-foreground to-foreground/85 bg-clip-text text-transparent">
             eSIM4life
           </span>
         </Link>
