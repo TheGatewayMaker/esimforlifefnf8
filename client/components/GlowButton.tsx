@@ -14,7 +14,7 @@ export default function GlowButton({ href, label, icon, className }: Props) {
       target="_blank"
       rel="noopener noreferrer"
       className={cn(
-        "group relative inline-flex items-center justify-center gap-2 md:gap-3 rounded-lg px-6 md:px-8 py-3.5 md:py-4 font-bold text-sm md:text-base",
+        "group relative inline-flex items-center justify-center gap-2 md:gap-3 rounded-lg px-5 sm:px-6 md:px-8 py-3 sm:py-3.5 md:py-4 font-bold text-xs sm:text-sm md:text-base",
         "bg-gradient-to-b from-accent via-accent to-accent/90 text-accent-foreground",
         "shadow-[0_6px_16px_rgba(255,215,0,0.35)] hover:shadow-[0_12px_32px_rgba(255,215,0,0.5),0_0_0_4px_rgba(255,215,0,0.15)]",
         "transition-all duration-300 will-change-transform hover:-translate-y-2 hover:scale-110",
