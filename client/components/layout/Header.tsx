@@ -122,7 +122,7 @@ export default function Header() {
             ))}
             <Link
               to="/#buy"
-              className="block mt-3 px-4 py-3 rounded-lg text-sm font-bold bg-gradient-to-b from-accent to-accent/90 text-accent-foreground text-center shadow-lg transition-all duration-300 hover:-translate-y-0.5"
+              className="block mt-4 px-5 py-3 rounded-lg text-sm font-bold bg-gradient-to-b from-accent via-accent to-accent/85 text-accent-foreground text-center shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
             >
               Buy Now (999 PKR)
             </Link>
