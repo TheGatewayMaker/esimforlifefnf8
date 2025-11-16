@@ -260,22 +260,22 @@ export default function Index() {
             </div>
 
             <div className="rounded-2xl border p-8 shadow-xl" style={{background: 'rgba(255, 255, 255, 0.06)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)', borderColor: 'rgba(255, 215, 0, 0.15)'}}>
-              <h3 className="text-xl font-black mb-6">How it works</h3>
+              <h3 className="text-lg md:text-xl font-black mb-6 tracking-tight">How it works</h3>
               <ol className="space-y-5 mb-8">
                 <li className="step flex items-start gap-4">
-                  <div className="flex-shrink-0 h-8 w-8 rounded-lg bg-accent/20 flex items-center justify-center text-sm font-bold text-accent">
+                  <div className="flex-shrink-0 h-8 w-8 rounded-lg flex items-center justify-center text-xs font-bold text-accent" style={{background: 'rgba(255, 215, 0, 0.15)', backdropFilter: 'blur(8px)', WebkitBackdropFilter: 'blur(8px)'}}>
                     1
                   </div>
                   <span className="text-base leading-relaxed">Share your unique referral link with friends.</span>
                 </li>
                 <li className="step flex items-start gap-4">
-                  <div className="flex-shrink-0 h-8 w-8 rounded-lg bg-accent/20 flex items-center justify-center text-sm font-bold text-accent">
+                  <div className="flex-shrink-0 h-8 w-8 rounded-lg flex items-center justify-center text-xs font-bold text-accent" style={{background: 'rgba(255, 215, 0, 0.15)', backdropFilter: 'blur(8px)', WebkitBackdropFilter: 'blur(8px)'}}>
                     2
                   </div>
                   <span className="text-base leading-relaxed">Your friend buys and activates an eSIM.</span>
                 </li>
                 <li className="step flex items-start gap-4">
-                  <div className="flex-shrink-0 h-8 w-8 rounded-lg bg-accent/20 flex items-center justify-center text-sm font-bold text-accent">
+                  <div className="flex-shrink-0 h-8 w-8 rounded-lg flex items-center justify-center text-xs font-bold text-accent" style={{background: 'rgba(255, 215, 0, 0.15)', backdropFilter: 'blur(8px)', WebkitBackdropFilter: 'blur(8px)'}}>
                     3
                   </div>
                   <span className="text-base leading-relaxed">Earn 500MB instantly. Repeat to unlock scratch cards.</span>
