@@ -1,20 +1,20 @@
 export default function Footer() {
   return (
-    <footer className="border-t border-border/60 mt-20">
-      <div className="container py-12 grid gap-8 md:grid-cols-3">
+    <footer className="border-t border-border/60 mt-16 sm:mt-20">
+      <div className="container px-4 sm:px-6 lg:px-8 py-10 sm:py-12 grid gap-8 sm:gap-10 md:gap-12 grid-cols-1 md:grid-cols-3">
         <div>
-          <div className="flex items-center gap-2 mb-3">
+          <div className="flex items-center gap-2 mb-4 sm:mb-5">
             <img
-              src="https://i.ibb.co/rKHZQ6Wn/esim4lifelogo.png"
+              src="https://i.ibb.co/k2b407jw/esim4lifelogo.png"
               alt="esim4life logo"
-              className="h-12 w-12 rounded-md"
+              className="h-10 sm:h-12 w-10 sm:w-12 rounded-md"
               loading="lazy"
             />
-            <span className="font-black tracking-tighter text-lg">
+            <span className="font-black tracking-tighter text-base sm:text-lg">
               esim4life
             </span>
           </div>
-          <p className="text-sm text-foreground/80 font-medium leading-relaxed">
+          <p className="text-xs sm:text-sm text-foreground/80 font-medium leading-relaxed">
             Cheap eSIM, Lifetime eSIM, International eSIM, Non-Expiring Data, 5G
             eSIM, buy eSIM online for global travel. Price:{" "}
             <span className="font-semibold">999 PKR</span>. Permanent data
@@ -23,8 +23,10 @@ export default function Footer() {
           </p>
         </div>
         <div>
-          <h4 className="font-bold mb-3">Quick links</h4>
-          <ul className="space-y-2 text-sm text-foreground/80 font-medium">
+          <h4 className="font-bold mb-4 sm:mb-5 text-base sm:text-lg">
+            Quick links
+          </h4>
+          <ul className="space-y-2.5 sm:space-y-2 text-xs sm:text-sm text-foreground/80 font-medium">
             <li>
               <a
                 href="/#home"
@@ -68,8 +70,10 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h4 className="font-bold mb-3">Contact</h4>
-          <ul className="space-y-2 text-sm text-foreground/80 font-medium">
+          <h4 className="font-bold mb-4 sm:mb-5 text-base sm:text-lg">
+            Contact
+          </h4>
+          <ul className="space-y-2.5 sm:space-y-2 text-xs sm:text-sm text-foreground/80 font-medium">
             <li>
               Email:{" "}
               <a
@@ -101,7 +105,7 @@ export default function Footer() {
                 @esim4lifechatbot
               </a>
             </li>
-            <li className="flex gap-3 pt-2">
+            <li className="flex gap-3 pt-4 sm:pt-3">
               <a
                 href="https://wa.me/message/4S3NPHUQR663C1"
                 target="_blank"
@@ -112,7 +116,7 @@ export default function Footer() {
                 <img
                   src="https://i.ibb.co/Q2YSt4V/whatsapp.png"
                   alt="WhatsApp"
-                  className="h-6 w-6"
+                  className="h-5 sm:h-6 w-5 sm:w-6"
                   loading="lazy"
                 />
               </a>
@@ -126,7 +130,7 @@ export default function Footer() {
                 <img
                   src="https://i.ibb.co/8gxkpRSv/telegram-1.png"
                   alt="Telegram"
-                  className="h-6 w-6"
+                  className="h-5 sm:h-6 w-5 sm:w-6"
                   loading="lazy"
                 />
               </a>
@@ -134,7 +138,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className="border-t border-border/60 py-6 text-center text-xs text-foreground/70 font-medium">
+      <div className="border-t border-border/60 py-6 sm:py-8 text-center text-xs sm:text-sm text-foreground/70 font-medium px-4">
         © {new Date().getFullYear()} esim4life.shop. All rights reserved.
       </div>
     </footer>

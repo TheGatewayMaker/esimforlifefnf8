@@ -16,6 +16,10 @@ import ReferPage from "@/pages/Refer";
 import SupportPage from "@/pages/Support";
 import { useEffect } from "react";
 
+// Force dark mode on app initialization
+document.documentElement.classList.add("dark");
+localStorage.setItem("theme", "dark");
+
 const queryClient = new QueryClient();
 
 function ScrollToHash() {

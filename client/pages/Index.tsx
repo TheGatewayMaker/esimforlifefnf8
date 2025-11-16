@@ -22,30 +22,36 @@ export default function Index() {
     <main className="relative">
       {/* Hero Section */}
       <section id="home" className="relative overflow-hidden">
-        {/* Decorative background elements */}
-        <div className="absolute inset-0 -z-10 opacity-30">
-          <div className="absolute top-20 left-10 w-72 h-72 bg-accent/20 rounded-full blur-3xl" />
-          <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl" />
+        {/* Enhanced decorative background elements with smooth yellow gradient */}
+        <div className="absolute inset-0 -z-10">
+          {/* Top-right yellow gradient (primary accent) - smoothened */}
+          <div className="absolute -top-64 -right-64 w-[600px] h-[600px] bg-gradient-to-br from-accent/25 via-accent/15 to-transparent rounded-full blur-[100px]" />
+          {/* Top-left accent glow - smoothened */}
+          <div className="absolute -top-40 -left-40 w-[500px] h-[500px] bg-gradient-to-br from-accent/12 via-accent/8 to-transparent rounded-full blur-[100px]" />
+          {/* Bottom-right soft accent - smoothened */}
+          <div className="absolute -bottom-48 right-0 w-[450px] h-[450px] bg-gradient-to-tl from-accent/10 via-accent/5 to-transparent rounded-full blur-[100px]" />
         </div>
 
-        <div className="container pt-8 sm:pt-12 pb-12 sm:pb-16 md:pt-16 md:pb-24 lg:pt-20 lg:pb-32 grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 lg:gap-12 items-center justify-center">
+        <div className="container pt-8 sm:pt-12 md:pt-16 lg:pt-24 pb-12 sm:pb-16 md:pb-24 lg:pb-40 grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center justify-center">
           {/* Left content */}
           <div className="flex flex-col justify-center order-2 lg:order-1">
-            <div className="inline-flex items-center gap-2 sm:gap-3 mb-6 sm:mb-8 w-fit">
-              <div className="h-8 sm:h-10 w-0.5 sm:w-1 bg-gradient-to-b from-accent to-accent/30 rounded-full" />
+            <div className="inline-flex items-center gap-3 sm:gap-4 mb-8 sm:mb-10 w-fit">
+              <div className="h-10 sm:h-12 w-1 bg-gradient-to-b from-accent via-accent to-accent/30 rounded-full" />
               <span className="text-xs sm:text-sm font-bold text-accent tracking-widest uppercase">
                 Premium Global eSIM
               </span>
             </div>
 
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black leading-tight tracking-tight mb-4 sm:mb-5 md:mb-6">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black leading-tight tracking-tighter mb-4 sm:mb-5 md:mb-6 lg:mb-7 text-foreground">
               Your Lifetime eSIM
             </h1>
-            <p className="text-lg sm:text-xl text-accent font-bold mb-3 sm:mb-4">
-              <span className="text-gradient">Zero Expiry</span>
+            <p className="text-xl sm:text-2xl text-accent font-bold mb-4 sm:mb-5">
+              <span className="text-gradient text-2xl sm:text-3xl">
+                Zero Expiry
+              </span>
             </p>
 
-            <p className="text-sm sm:text-base md:text-lg text-foreground/75 max-w-xl leading-relaxed mb-6 sm:mb-8">
+            <p className="text-base sm:text-lg md:text-lg text-foreground/80 max-w-xl leading-relaxed mb-8 sm:mb-10 font-medium">
               esim4life.shop provides an international data eSIM that never
               expires. Permanent data and account validity across multiple
               countries, including Pakistan. Compatible with both PTA and
@@ -53,78 +59,81 @@ export default function Index() {
             </p>
 
             {/* Features chips */}
-            <div className="flex flex-wrap items-center gap-2 sm:gap-3 mb-7 sm:mb-10">
+            <div className="flex flex-wrap items-center gap-3 sm:gap-4 mb-10 sm:mb-12">
               <span className="chip">
-                <Infinity className="h-3 sm:h-4 w-3 sm:w-4" />
+                <Infinity className="h-4 sm:h-5 w-4 sm:w-5" />
                 <span className="text-xs sm:text-sm">No Expiry</span>
               </span>
               <span className="chip">
-                <Gift className="h-3 sm:h-4 w-3 sm:w-4" />
+                <Gift className="h-4 sm:h-5 w-4 sm:w-5" />
                 <span className="text-xs sm:text-sm">Free Data</span>
               </span>
               <span className="chip">
-                <Wifi className="h-3 sm:h-4 w-3 sm:w-4" />
+                <Wifi className="h-4 sm:h-5 w-4 sm:w-5" />
                 <span className="text-xs sm:text-sm">Global 4G/5G</span>
               </span>
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row items-stretch gap-3 sm:gap-4 w-full max-w-xl">
+            <div className="flex flex-col sm:flex-row items-stretch gap-4 sm:gap-5 w-full max-w-2xl">
               <GlowButton
                 href="https://wa.me/message/4S3NPHUQR663C1"
                 label="Buy via WhatsApp"
                 icon="https://i.ibb.co/Q2YSt4V/whatsapp.png"
-                className="w-full text-sm sm:text-base px-4 sm:px-5"
+                className="w-full text-sm sm:text-base px-5 sm:px-6 py-3 sm:py-4"
               />
               <GlowButton
                 href="https://t.me/esim4lifechatbot"
                 label="Buy via Telegram"
                 icon="https://i.ibb.co/8gxkpRSv/telegram-1.png"
-                className="w-full text-sm sm:text-base px-4 sm:px-5"
+                className="w-full text-sm sm:text-base px-5 sm:px-6 py-3 sm:py-4"
               />
             </div>
           </div>
 
           {/* Right stats section */}
           <div className="order-1 lg:order-2 relative w-full">
-            {/* Price poster highlight */}
-            <div className="mb-8 sm:mb-10 md:mb-12 text-center">
-              <p className="text-xs sm:text-sm font-bold text-accent/80 uppercase tracking-widest mb-2 sm:mb-3">
-                Limited Time Offer
-              </p>
-              <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-accent mb-2 sm:mb-3 leading-tight">
-                999 PKR
-              </h2>
-              <p className="text-sm sm:text-base md:text-lg font-semibold text-foreground/70">
-                Lifetime eSIM
-              </p>
+            {/* Price poster highlight with thoughtful layout */}
+            <div className="mb-10 sm:mb-12 md:mb-14 relative">
+              {/* Subtle background glow for price section */}
+              <div className="absolute inset-0 bg-gradient-to-b from-accent/8 via-accent/4 to-transparent rounded-3xl blur-3xl -z-10" />
+              <div className="flex flex-col items-center lg:items-end gap-2 sm:gap-3">
+                <div className="flex flex-col lg:flex-row items-center lg:items-baseline gap-2 sm:gap-3 md:gap-4">
+                  <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-accent leading-tight drop-shadow-lg">
+                    999 PKR
+                  </h2>
+                  <p className="text-sm sm:text-base md:text-lg lg:text-xl font-semibold text-foreground/75">
+                    Lifetime eSIM
+                  </p>
+                </div>
+              </div>
             </div>
 
             {/* Stats grid */}
-            <div className="grid grid-cols-2 gap-3 sm:gap-4 md:gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 md:gap-5 lg:gap-6">
               <div className="stat">
-                <Wifi className="h-6 sm:h-7 md:h-8 w-6 sm:w-7 md:w-8 text-accent" />
+                <Wifi className="h-7 sm:h-8 md:h-9 w-7 sm:w-8 md:w-9 text-accent" />
                 <span className="stat-label text-xs">Connectivity</span>
                 <span className="stat-value text-lg sm:text-xl md:text-2xl">
                   4G/5G
                 </span>
               </div>
               <div className="stat">
-                <Infinity className="h-6 sm:h-7 md:h-8 w-6 sm:w-7 md:w-8 text-accent" />
+                <Infinity className="h-7 sm:h-8 md:h-9 w-7 sm:w-8 md:w-9 text-accent" />
                 <span className="stat-label text-xs">Validity</span>
                 <span className="stat-value text-lg sm:text-xl md:text-2xl">
                   Lifetime
                 </span>
               </div>
               <div className="stat">
-                <Globe2 className="h-6 sm:h-7 md:h-8 w-6 sm:w-7 md:w-8 text-accent" />
+                <Globe2 className="h-7 sm:h-8 md:h-9 w-7 sm:w-8 md:w-9 text-accent" />
                 <span className="stat-label text-xs">Coverage</span>
                 <span className="stat-value text-lg sm:text-xl md:text-2xl">
                   Global
                 </span>
               </div>
               <div className="stat">
-                <Shield className="h-6 sm:h-7 md:h-8 w-6 sm:w-7 md:w-8 text-accent" />
+                <Shield className="h-7 sm:h-8 md:h-9 w-7 sm:w-8 md:w-9 text-accent" />
                 <span className="stat-label text-xs">Security</span>
                 <span className="stat-value text-lg sm:text-xl md:text-2xl">
                   Secure
@@ -134,18 +143,18 @@ export default function Index() {
 
             {/* Compatibility info */}
             <div
-              className="mt-4 sm:mt-5 md:mt-6 rounded-2xl border p-4 sm:p-5 md:p-6 text-center"
+              className="mt-6 sm:mt-7 md:mt-8 rounded-2xl border p-5 sm:p-6 md:p-7 text-center"
               style={{
-                background: "rgba(255, 255, 255, 0.05)",
-                backdropFilter: "blur(10px)",
-                WebkitBackdropFilter: "blur(10px)",
-                borderColor: "rgba(255, 215, 0, 0.15)",
+                background: "rgba(255, 215, 0, 0.08)",
+                backdropFilter: "blur(12px)",
+                WebkitBackdropFilter: "blur(12px)",
+                borderColor: "rgba(255, 215, 0, 0.25)",
               }}
             >
-              <p className="text-base sm:text-lg font-bold text-foreground mb-1 sm:mb-2">
+              <p className="text-base sm:text-lg font-bold text-foreground mb-2">
                 Compatible with All Non-PTA Phones
               </p>
-              <p className="text-xs sm:text-sm text-foreground/70">
+              <p className="text-xs sm:text-sm text-foreground/75 font-medium">
                 No restrictions • Full international compatibility
               </p>
             </div>
@@ -154,20 +163,28 @@ export default function Index() {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="relative py-20 md:py-32 lg:py-40">
+      <section
+        id="features"
+        className="relative py-16 sm:py-24 md:py-40 lg:py-48 overflow-hidden"
+      >
+        {/* Subtle background accent - smoothened */}
+        <div className="absolute inset-0 -z-10">
+          <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-gradient-to-br from-accent/8 via-accent/4 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute bottom-0 right-0 w-[450px] h-[450px] bg-gradient-to-tl from-accent/6 via-accent/3 to-transparent rounded-full blur-[100px]" />
+        </div>
         <div className="container">
-          <div className="mb-16 md:mb-20 max-w-2xl">
-            <h2 className="text-4xl md:text-5xl font-black mb-6 tracking-tight">
+          <div className="mb-12 sm:mb-16 md:mb-24 max-w-3xl px-4 sm:px-0">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-4 sm:mb-5 md:mb-6 tracking-tighter">
               Everything you need
             </h2>
-            <p className="text-lg text-foreground/70 leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl text-foreground/75 leading-relaxed font-medium">
               Global compatibility, lifetime data, referral rewards, and
               seamless device transfers, wrapped in a premium, secure
               experience.
             </p>
           </div>
 
-          <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-stretch">
+          <div className="grid gap-4 sm:gap-5 md:gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-stretch px-4 sm:px-0">
             <FeatureCard
               title="Global Compatibility"
               description="Works across multiple countries including Pakistan. Reliable 4G & 5G worldwide performance."
@@ -205,29 +222,30 @@ export default function Index() {
       {/* Buy Section */}
       <section
         id="buy"
-        className="relative py-20 md:py-32 lg:py-40 overflow-hidden"
+        className="relative py-16 sm:py-24 md:py-40 lg:py-48 overflow-hidden"
       >
-        {/* Background decoration */}
-        <div className="absolute inset-0 -z-10 opacity-20">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-accent/20 rounded-full blur-3xl" />
+        {/* Background decoration with smoothened yellow gradient */}
+        <div className="absolute inset-0 -z-10">
+          <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-gradient-to-br from-accent/20 via-accent/10 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute bottom-0 left-1/4 w-[450px] h-[450px] bg-gradient-to-tr from-accent/12 via-accent/6 to-transparent rounded-full blur-[100px]" />
         </div>
 
-        <div className="container">
+        <div className="container px-4 sm:px-0">
           <div className="mx-auto max-w-3xl text-center">
-            <h2 className="text-4xl md:text-5xl font-black mb-8 tracking-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-8 sm:mb-10 tracking-tighter">
               Get Your eSIM Today
             </h2>
 
-            <div className="inline-flex items-baseline gap-3 mb-8">
-              <span className="text-5xl md:text-6xl font-black text-accent">
+            <div className="inline-flex flex-col sm:flex-row items-center sm:items-baseline gap-3 sm:gap-4 mb-10">
+              <span className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-accent">
                 999 PKR
               </span>
-              <span className="text-base text-accent font-bold uppercase tracking-widest">
+              <span className="text-xs sm:text-base md:text-lg text-accent font-bold uppercase tracking-widest">
                 One-time
               </span>
             </div>
 
-            <p className="text-base lg:text-lg text-foreground/70 leading-relaxed max-w-2xl mx-auto mb-12">
+            <p className="text-sm sm:text-base lg:text-lg text-foreground/75 leading-relaxed max-w-2xl mx-auto mb-10 sm:mb-12 lg:mb-14 font-medium">
               Choose your preferred platform to purchase. Our team will guide
               you through a quick, secure setup process.
             </p>
@@ -251,14 +269,21 @@ export default function Index() {
       </section>
 
       {/* Refer & Earn Section */}
-      <section id="refer" className="relative py-20 md:py-32 lg:py-40">
-        <div className="container">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <section
+        id="refer"
+        className="relative py-16 sm:py-24 md:py-40 lg:py-48 overflow-hidden"
+      >
+        {/* Subtle background accent - smoothened */}
+        <div className="absolute inset-0 -z-10">
+          <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-gradient-to-tl from-accent/12 via-accent/6 to-transparent rounded-full blur-[100px]" />
+        </div>
+        <div className="container px-4 sm:px-0">
+          <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center">
             <div>
-              <h2 className="text-4xl md:text-5xl font-black mb-6 tracking-tight">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6 sm:mb-8 tracking-tighter">
                 Refer & Earn
               </h2>
-              <p className="text-lg text-foreground/70 leading-relaxed mb-8">
+              <p className="text-base sm:text-lg md:text-xl text-foreground/75 leading-relaxed mb-8 sm:mb-10 font-medium">
                 Invite friends and earn 500MB per successful referral with no
                 limits. After three referrals, unlock a bonus scratch card with
                 exclusive rewards.
@@ -374,19 +399,20 @@ export default function Index() {
       {/* Support Section */}
       <section
         id="support"
-        className="relative py-20 md:py-32 lg:py-40 overflow-hidden"
+        className="relative py-16 sm:py-24 md:py-40 lg:py-48 overflow-hidden"
       >
-        {/* Background decoration */}
-        <div className="absolute inset-0 -z-10 opacity-20">
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-accent/20 rounded-full blur-3xl" />
+        {/* Background decoration with smoothened yellow gradient */}
+        <div className="absolute inset-0 -z-10">
+          <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-gradient-to-tr from-accent/15 via-accent/8 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute top-0 right-1/3 w-[450px] h-[450px] bg-gradient-to-br from-accent/8 via-accent/4 to-transparent rounded-full blur-[100px]" />
         </div>
 
-        <div className="container">
+        <div className="container px-4 sm:px-0">
           <div className="mx-auto max-w-3xl text-center">
-            <h2 className="text-4xl md:text-5xl font-black mb-6 tracking-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6 sm:mb-8 tracking-tighter">
               Need Help?
             </h2>
-            <p className="text-lg text-foreground/70 leading-relaxed mb-10">
+            <p className="text-base sm:text-lg md:text-xl text-foreground/75 leading-relaxed mb-10 sm:mb-12 font-medium">
               Our dedicated support team is here to assist you 24/7. Contact us
               anytime on WhatsApp or Telegram for quick, professional
               assistance.
