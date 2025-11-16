@@ -53,7 +53,7 @@ export default function Header() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3 md:gap-4">
           <Link
             to="/#buy"
             className={cn(
@@ -62,17 +62,6 @@ export default function Header() {
           >
             Buy Now (999 PKR)
           </Link>
-          <button
-            aria-label="Toggle theme"
-            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-            className="inline-flex h-11 w-11 items-center justify-center rounded-lg border border-accent/30 bg-card hover:bg-accent/15 transition-all duration-300 hover:border-accent/50 shadow-sm hover:shadow-md"
-          >
-            {theme === "dark" ? (
-              <Sun className="h-5 w-5 text-accent" />
-            ) : (
-              <Moon className="h-5 w-5 text-foreground/70" />
-            )}
-          </button>
           <button
             onClick={() => setOpen((o) => !o)}
             aria-label="Menu"
