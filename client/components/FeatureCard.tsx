@@ -49,7 +49,7 @@ export default function FeatureCard({
         </div>
 
         {/* Bottom accent line */}
-        <div className="mt-6 h-0.5 w-12 bg-gradient-to-r from-accent to-accent/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+        <div className="mt-4 sm:mt-5 md:mt-6 h-0.5 w-10 sm:w-12 bg-gradient-to-r from-accent to-accent/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
       </div>
     </div>
   );
