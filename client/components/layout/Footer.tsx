@@ -134,7 +134,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className="border-t border-border/60 py-6 text-center text-xs text-foreground/70 font-medium">
+      <div className="border-t border-border/60 py-6 sm:py-8 text-center text-xs sm:text-sm text-foreground/70 font-medium px-4">
         © {new Date().getFullYear()} esim4life.shop. All rights reserved.
       </div>
     </footer>
