@@ -112,42 +112,15 @@ export default function Index() {
 
           {/* Right stats section */}
           <div className="lg:order-2 relative w-full">
-            {/* Price poster highlight with thoughtful layout */}
-            <div
-              className="relative rounded-3xl border"
-              style={{
-                background:
-                  "linear-gradient(135deg, rgba(255, 215, 0, 0.12) 0%, rgba(255, 215, 0, 0.06) 100%)",
-                borderColor: "rgba(255, 215, 0, 0.3)",
-                boxShadow:
-                  "0 12px 32px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.15)",
-                margin: "9px 0 56px",
-                padding: "24px 48px 16px",
-              }}
-            >
-              <div className="flex flex-col items-center lg:items-end gap-2 sm:gap-3">
-                <h2
-                  className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl font-black text-accent leading-tight"
-                  style={{
-                    margin: "-4px -3px -5px -2px",
-                  }}
-                >
-                  999 PKR
+            {/* Price display without background */}
+            <div className="mb-12 sm:mb-16">
+              <div className="flex flex-col items-center lg:items-start gap-1">
+                <h2 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-accent leading-tight">
+                  <span>999</span> <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl">PKR</span>
                 </h2>
               </div>
-              <p className="text-sm sm:text-base md:text-lg lg:text-xl font-black text-foreground">
+              <p className="text-base sm:text-lg md:text-xl font-black text-foreground mt-2 sm:mt-3">
                 Lifetime eSIM
-              </p>
-              <p
-                className="text-xs font-bold mt-2"
-                style={{
-                  color: "rgb(255, 217, 0)",
-                  fontSize: "15px",
-                  fontWeight: "700",
-                  lineHeight: "20px",
-                }}
-              >
-                GLOBAL COVERAGE • NON-PTA PHONES
               </p>
             </div>
 
