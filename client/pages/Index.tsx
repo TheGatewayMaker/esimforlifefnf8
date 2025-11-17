@@ -114,7 +114,7 @@ export default function Index() {
           <div className="lg:order-2 relative w-full">
             {/* Price display without background */}
             <div className="mb-10 sm:mb-12 lg:mb-14">
-              <div className="flex flex-col items-center lg:items-start gap-1">
+              <div className="flex flex-col items-center lg:items-end gap-1">
                 <h2 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-accent leading-tight">
                   <span>999</span> <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl">PKR</span>
                 </h2>
