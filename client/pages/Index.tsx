@@ -300,7 +300,7 @@ export default function Index() {
       >
         {/* Subtle background accent - smoothened */}
         <div className="absolute inset-0 -z-10">
-          <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-gradient-to-tl from-accent/12 via-accent/6 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-gradient-to-tl from-accent/15 via-accent/8 to-transparent rounded-full blur-[100px]" />
         </div>
         <div className="container px-4 sm:px-0">
           <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center">
@@ -335,12 +335,13 @@ export default function Index() {
             </div>
 
             <div
-              className="rounded-2xl border p-8 shadow-xl"
+              className="rounded-2xl border p-8"
               style={{
-                background: "rgba(255, 255, 255, 0.06)",
-                backdropFilter: "blur(10px)",
-                WebkitBackdropFilter: "blur(10px)",
-                borderColor: "rgba(255, 215, 0, 0.15)",
+                background: "linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%)",
+                backdropFilter: "blur(16px)",
+                WebkitBackdropFilter: "blur(16px)",
+                borderColor: "rgba(255, 215, 0, 0.25)",
+                boxShadow: "0 8px 24px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.15)",
               }}
             >
               <h3 className="text-lg md:text-xl font-black mb-6 tracking-tight">
