@@ -105,17 +105,17 @@ export default function Index() {
 
           {/* Right stats section */}
           <div className="lg:order-2 relative w-full">
-            {/* Price display without background */}
+            {/* Price display */}
             <div className="mb-10 sm:mb-12 lg:mb-14">
-              <div className="flex flex-col items-center lg:items-end gap-1">
-                <h2 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-accent leading-tight">
+              <div className="flex flex-col items-center lg:items-end gap-2">
+                <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-accent leading-tight">
                   <span>999</span>{" "}
-                  <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+                  <span className="text-3xl sm:text-4xl md:text-5xl">
                     PKR
                   </span>
                 </h2>
-                <p className="text-base sm:text-lg md:text-xl font-black text-foreground mt-1 sm:mt-2">
-                  Lifetime eSIM
+                <p className="text-base sm:text-lg font-bold text-foreground/80">
+                  Lifetime Subscription
                 </p>
               </div>
             </div>
