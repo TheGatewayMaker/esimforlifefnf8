@@ -298,9 +298,9 @@ export default function Index() {
         id="refer"
         className="relative py-16 sm:py-24 md:py-40 lg:py-48 overflow-hidden"
       >
-        {/* Subtle background accent - smoothened */}
+        {/* Subtle background accent */}
         <div className="absolute inset-0 -z-10">
-          <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-gradient-to-tl from-accent/15 via-accent/8 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-gradient-to-tl from-accent/8 via-accent/3 to-transparent rounded-full blur-[120px]" />
         </div>
         <div className="container px-4 sm:px-0">
           <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center">
