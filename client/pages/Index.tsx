@@ -38,7 +38,7 @@ export default function Index() {
               </div>
 
               {/* Heading */}
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black mb-6 leading-tight">
+              <h1 className="text-6xl sm:text-7xl lg:text-8xl font-black mb-6 leading-tight">
                 Your Lifetime
                 <br />
                 <span className="text-accent">eSIM</span>
