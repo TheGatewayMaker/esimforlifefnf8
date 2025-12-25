@@ -56,7 +56,7 @@ export default function Header() {
         <div className="flex items-center gap-3">
           <Link
             to="/#buy"
-            className="hidden lg:inline-flex px-6 py-2.5 rounded text-sm font-semibold bg-accent text-background hover:bg-accent/90 transition-colors duration-200 whitespace-nowrap"
+            className="hidden lg:inline-flex px-6 py-2.5 rounded text-sm font-black bg-accent text-background hover:bg-accent/90 transition-colors duration-200 whitespace-nowrap"
           >
             Buy Now (999 PKR)
           </Link>
