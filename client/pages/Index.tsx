@@ -283,29 +283,29 @@ export default function Index() {
 
             {/* Right Content - Process */}
             <div className="rounded border border-accent/20 p-8 sm:p-10 bg-accent/8">
-              <h3 className="text-2xl md:text-3xl font-bold mb-8">How it works</h3>
+              <h3 className="text-2xl md:text-3xl font-black mb-8">How it works</h3>
               <ol className="space-y-6">
                 <li className="step flex items-start gap-4">
-                  <div className="flex-shrink-0 h-9 w-9 rounded flex items-center justify-center text-sm font-bold text-accent bg-accent/12">
+                  <div className="flex-shrink-0 h-9 w-9 rounded flex items-center justify-center text-sm font-black text-accent bg-accent/12">
                     1
                   </div>
-                  <span className="text-base leading-relaxed pt-1">
+                  <span className="text-base leading-relaxed pt-1 font-bold">
                     Share your unique referral code with friends.
                   </span>
                 </li>
                 <li className="step flex items-start gap-4">
-                  <div className="flex-shrink-0 h-9 w-9 rounded flex items-center justify-center text-sm font-bold text-accent bg-accent/12">
+                  <div className="flex-shrink-0 h-9 w-9 rounded flex items-center justify-center text-sm font-black text-accent bg-accent/12">
                     2
                   </div>
-                  <span className="text-base leading-relaxed pt-1">
+                  <span className="text-base leading-relaxed pt-1 font-bold">
                     Friend installs the app and enters your referral code (no purchase needed).
                   </span>
                 </li>
                 <li className="step flex items-start gap-4">
-                  <div className="flex-shrink-0 h-9 w-9 rounded flex items-center justify-center text-sm font-bold text-accent bg-accent/12">
+                  <div className="flex-shrink-0 h-9 w-9 rounded flex items-center justify-center text-sm font-black text-accent bg-accent/12">
                     3
                   </div>
-                  <span className="text-base leading-relaxed pt-1">
+                  <span className="text-base leading-relaxed pt-1 font-bold">
                     Both get 500MB instantly. After 3 referrals, unlock a bonus scratch card worth up to 300GB.
                   </span>
                 </li>
