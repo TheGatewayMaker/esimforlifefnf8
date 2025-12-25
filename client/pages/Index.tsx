@@ -88,8 +88,8 @@ export default function Index() {
               <div className="mb-10 p-8 sm:p-10 rounded border border-accent/20 bg-accent/8">
                 <p className="text-xs font-black text-foreground/60 uppercase tracking-widest mb-4">Lifetime Price</p>
                 <div className="mb-3">
-                  <span className="text-6xl sm:text-7xl font-black text-accent">999</span>
-                  <span className="text-3xl sm:text-4xl font-black text-foreground ml-2">PKR</span>
+                  <span className="text-7xl sm:text-8xl lg:text-9xl font-black text-accent">999</span>
+                  <span className="text-4xl sm:text-5xl font-black text-foreground ml-2">PKR</span>
                 </div>
                 <p className="text-sm sm:text-base text-foreground/70 font-bold">One-time purchase • Lifetime validity</p>
               </div>
