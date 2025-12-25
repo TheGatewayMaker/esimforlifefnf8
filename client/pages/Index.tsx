@@ -178,7 +178,7 @@ export default function Index() {
       <section className="relative py-16 sm:py-24 md:py-32 overflow-hidden">
         <div className="container">
           <div className="mb-12 sm:mb-16">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">Why Choose eSIM4life?</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black">Why Choose eSIM4life?</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
@@ -186,8 +186,8 @@ export default function Index() {
               <div className="benefit-icon">
                 <Lock className="h-5 w-5" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Trusted & Secure</h3>
-              <p className="text-foreground/70 leading-relaxed">
+              <h3 className="text-xl font-black mb-3">Trusted & Secure</h3>
+              <p className="text-foreground/70 leading-relaxed font-bold">
                 Enterprise-grade security with encrypted connections and secure activation. Your data is protected with international standards.
               </p>
             </div>
@@ -196,8 +196,8 @@ export default function Index() {
               <div className="benefit-icon">
                 <Zap className="h-5 w-5" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Instant Activation</h3>
-              <p className="text-foreground/70 leading-relaxed">
+              <h3 className="text-xl font-black mb-3">Instant Activation</h3>
+              <p className="text-foreground/70 leading-relaxed font-bold">
                 Get connected in minutes. No waiting for physical mail, no complicated setup. Activate online and start using immediately.
               </p>
             </div>
@@ -206,8 +206,8 @@ export default function Index() {
               <div className="benefit-icon">
                 <Users className="h-5 w-5" />
               </div>
-              <h3 className="text-xl font-bold mb-3">24/7 Support</h3>
-              <p className="text-foreground/70 leading-relaxed">
+              <h3 className="text-xl font-black mb-3">24/7 Support</h3>
+              <p className="text-foreground/70 leading-relaxed font-bold">
                 Our dedicated support team is always available on WhatsApp and Telegram to help with any questions or issues.
               </p>
             </div>
@@ -216,8 +216,8 @@ export default function Index() {
               <div className="benefit-icon">
                 <Gift className="h-5 w-5" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Premium Rewards</h3>
-              <p className="text-foreground/70 leading-relaxed">
+              <h3 className="text-xl font-black mb-3">Premium Rewards</h3>
+              <p className="text-foreground/70 leading-relaxed font-bold">
                 Earn data through referrals and unlock bonus scratch cards. The more you share, the more you earn.
               </p>
             </div>
