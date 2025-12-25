@@ -347,7 +347,7 @@
   }
 
   .text-muted-accent {
-    @apply text-foreground/70 font-medium;
+    @apply text-foreground/70 font-bold;
   }
 
   .divider-accent {
