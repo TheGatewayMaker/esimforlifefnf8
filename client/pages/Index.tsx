@@ -166,7 +166,7 @@ export default function Index() {
       >
         <div className="container">
           {/* Section Header */}
-          <div className="mb-14 sm:mb-20 max-w-4xl mx-auto text-center">
+          <div className="mb-14 sm:mb-20 max-w-5xl mx-auto text-center">
             <p className="text-xs font-black text-accent uppercase tracking-widest mb-4">
               Core Features
             </p>
