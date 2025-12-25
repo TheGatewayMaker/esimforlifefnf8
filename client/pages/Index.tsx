@@ -32,25 +32,25 @@ export default function Index() {
             <div className="flex flex-col justify-center">
               {/* Badge */}
               <div className="mb-8">
-                <span className="inline-block text-xs font-semibold text-accent tracking-widest uppercase px-3 py-1.5 rounded bg-accent/10 border border-accent/20">
+                <span className="inline-block text-xs font-black text-accent tracking-widest uppercase px-3 py-1.5 rounded bg-accent/10 border border-accent/20">
                   Premium Global Solution
                 </span>
               </div>
 
               {/* Heading */}
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black mb-6 leading-tight">
                 Your Lifetime
                 <br />
                 <span className="text-accent">eSIM</span>
               </h1>
 
               {/* Subheading */}
-              <p className="text-2xl sm:text-3xl font-semibold text-accent mb-8">
+              <p className="text-2xl sm:text-3xl font-black text-accent mb-8">
                 Zero Expiry
               </p>
 
               {/* Description */}
-              <p className="text-base sm:text-lg text-foreground/75 max-w-lg mb-8 leading-relaxed">
+              <p className="text-base sm:text-lg text-foreground/75 max-w-lg mb-8 leading-relaxed font-bold">
                 Premium international data eSIM with permanent validity. Works across 150+ countries with full 4G/5G connectivity, compatible with all non-PTA devices.
               </p>
 
