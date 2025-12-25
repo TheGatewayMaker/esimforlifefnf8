@@ -83,7 +83,7 @@ export default function Index() {
             </div>
 
             {/* Right Content - Pricing & Stats */}
-            <div>
+            <div className="flex flex-col">
               {/* Price Card */}
               <div className="mb-10 p-8 sm:p-10 rounded border border-accent/20 bg-accent/8">
                 <p className="text-xs font-black text-foreground/60 uppercase tracking-widest mb-4">Lifetime Price</p>
