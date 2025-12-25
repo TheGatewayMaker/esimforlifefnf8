@@ -11,34 +11,23 @@ export default function FeatureCard({
 }) {
   return (
     <div
-      className="group relative rounded-2xl border overflow-hidden transition-all duration-300 h-full hover:-translate-y-3 hover:shadow-xl"
+      className="group relative rounded-lg border overflow-hidden transition-all duration-300 h-full hover:-translate-y-2 hover:shadow-md"
       style={{
-        background:
-          "linear-gradient(135deg, rgba(255, 255, 255, 0.11) 0%, rgba(255, 255, 255, 0.05) 100%)",
-        backdropFilter: "blur(16px)",
-        WebkitBackdropFilter: "blur(16px)",
-        borderColor: "rgba(255, 215, 0, 0.3)",
-        boxShadow:
-          "0 8px 20px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.15)",
+        background: "rgba(61, 207, 220, 0.05)",
+        borderColor: "rgba(61, 207, 220, 0.2)",
+        boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
       }}
     >
-      {/* Enhanced accent gradient overlay on hover */}
-      <div className="absolute -inset-0 rounded-2xl bg-gradient-to-br from-accent/8 via-accent/0 to-accent/12 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-
       {/* Content */}
-      <div className="relative p-7 md:p-8 flex flex-col h-full">
-        {/* Icon container with enhanced styling */}
+      <div className="relative p-6 md:p-7 flex flex-col h-full">
+        {/* Icon container */}
         <div
-          className="flex h-12 sm:h-14 md:h-16 w-12 sm:w-14 md:w-16 items-center justify-center rounded-xl sm:rounded-2xl md:rounded-2xl text-accent flex-shrink-0 mb-4 sm:mb-5 md:mb-6 transition-all duration-300 group-hover:shadow-lg group-hover:-translate-y-1"
+          className="flex h-12 sm:h-13 md:h-14 w-12 sm:w-13 md:w-14 items-center justify-center rounded-lg text-accent flex-shrink-0 mb-4 md:mb-5 transition-all duration-300 group-hover:-translate-y-1"
           style={{
-            background:
-              "linear-gradient(135deg, rgba(255, 215, 0, 0.2) 0%, rgba(255, 215, 0, 0.1) 100%)",
-            backdropFilter: "blur(12px)",
-            WebkitBackdropFilter: "blur(12px)",
-            borderColor: "rgba(255, 215, 0, 0.35)",
-            border: "1px solid rgba(255, 215, 0, 0.35)",
-            boxShadow:
-              "0 4px 12px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.1)",
+            background: "rgba(61, 207, 220, 0.12)",
+            borderColor: "rgba(61, 207, 220, 0.3)",
+            border: "1px solid rgba(61, 207, 220, 0.3)",
+            boxShadow: "0 2px 6px rgba(61, 207, 220, 0.15)",
           }}
         >
           {icon}
@@ -46,16 +35,16 @@ export default function FeatureCard({
 
         {/* Text content */}
         <div className="flex-1">
-          <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-black tracking-tight mb-2 sm:mb-3 text-foreground leading-snug">
+          <h3 className="text-base sm:text-lg md:text-lg font-bold tracking-tight mb-2 text-foreground leading-snug">
             {title}
           </h3>
-          <p className="text-xs sm:text-sm md:text-base text-foreground/75 leading-relaxed font-medium">
+          <p className="text-sm text-foreground/70 leading-relaxed font-medium">
             {description}
           </p>
         </div>
 
         {/* Bottom accent line */}
-        <div className="mt-4 sm:mt-5 md:mt-6 h-1 w-10 sm:w-12 bg-gradient-to-r from-accent via-accent to-accent/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-full" />
+        <div className="mt-4 md:mt-5 h-0.5 w-8 bg-accent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-full" />
       </div>
     </div>
   );
