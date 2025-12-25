@@ -283,7 +283,7 @@ export default function Index() {
 
             {/* Right Content - Process */}
             <div className="rounded border border-accent/20 p-8 sm:p-10 bg-accent/8">
-              <h3 className="text-2xl md:text-3xl font-black mb-8">How it works</h3>
+              <h3 className="text-3xl md:text-4xl font-black mb-8">How it works</h3>
               <ol className="space-y-6">
                 <li className="step flex items-start gap-4">
                   <div className="flex-shrink-0 h-9 w-9 rounded flex items-center justify-center text-sm font-black text-accent bg-accent/12">
