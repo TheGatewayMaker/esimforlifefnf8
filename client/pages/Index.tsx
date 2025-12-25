@@ -166,7 +166,7 @@ export default function Index() {
       >
         <div className="container">
           {/* Section Header */}
-          <div className="mb-14 sm:mb-20 max-w-4xl mx-auto text-center">
+          <div className="mb-14 sm:mb-20 max-w-5xl mx-auto text-center">
             <p className="text-xs font-black text-accent uppercase tracking-widest mb-4">
               Core Features
             </p>
@@ -390,7 +390,7 @@ export default function Index() {
         className="relative py-16 sm:py-24 md:py-32 overflow-hidden"
       >
         <div className="container">
-          <div className="mx-auto max-w-4xl text-center">
+          <div className="mx-auto max-w-5xl text-center">
             <p className="text-xs font-black text-accent uppercase tracking-widest mb-4">
               Ready to Get Connected?
             </p>
@@ -449,7 +449,7 @@ export default function Index() {
         className="relative py-16 sm:py-24 md:py-32 overflow-hidden"
       >
         <div className="container">
-          <div className="mx-auto max-w-4xl text-center">
+          <div className="mx-auto max-w-5xl text-center">
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black mb-6">
               Need Help?
             </h2>
