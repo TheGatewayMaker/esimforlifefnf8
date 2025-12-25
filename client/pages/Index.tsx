@@ -449,7 +449,7 @@ export default function Index() {
         className="relative py-16 sm:py-24 md:py-32 overflow-hidden"
       >
         <div className="container">
-          <div className="mx-auto max-w-4xl text-center">
+          <div className="mx-auto max-w-5xl text-center">
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black mb-6">
               Need Help?
             </h2>
