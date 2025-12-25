@@ -49,29 +49,24 @@ export default function Index() {
               Zero Expiry
             </p>
 
-            <p className="text-base sm:text-lg md:text-lg text-foreground/80 max-w-xl leading-relaxed mb-8 sm:mb-10 font-medium">
-              esim4life.shop provides an international data eSIM that never
-              expires. Permanent data and account validity across multiple
-              countries, including Pakistan.
+            <p className="text-base sm:text-lg text-foreground/75 max-w-xl leading-relaxed mb-7 sm:mb-9 font-medium">
+              Premium international data eSIM with permanent validity. Works across 150+ countries with full 4G/5G connectivity, compatible with all non-PTA devices.
             </p>
 
             {/* Non-PTA Emphasis Badge */}
             <div
-              className="mb-8 sm:mb-10 p-4 sm:p-5 rounded-xl border"
+              className="mb-8 sm:mb-10 p-4 sm:p-5 rounded-lg border"
               style={{
-                background:
-                  "linear-gradient(135deg, rgba(255, 215, 0, 0.08) 0%, rgba(255, 215, 0, 0.04) 100%)",
-                borderColor: "rgba(255, 215, 0, 0.3)",
-                boxShadow:
-                  "0 4px 12px rgba(0, 0, 0, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.1)",
+                background: "rgba(61, 207, 220, 0.06)",
+                borderColor: "rgba(61, 207, 220, 0.25)",
+                boxShadow: "0 2px 8px rgba(0, 0, 0, 0.08)",
               }}
             >
               <p className="text-sm sm:text-base font-bold text-accent mb-1">
                 ✓ Works on ALL Non-PTA Phones
               </p>
-              <p className="text-xs sm:text-sm text-foreground/75">
-                Full compatibility with international devices • No PTA
-                restrictions
+              <p className="text-xs sm:text-sm text-foreground/70 font-medium">
+                Full compatibility with international devices • No PTA restrictions
               </p>
             </div>
 
