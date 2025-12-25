@@ -390,7 +390,7 @@ export default function Index() {
         className="relative py-16 sm:py-24 md:py-32 overflow-hidden"
       >
         <div className="container">
-          <div className="mx-auto max-w-4xl text-center">
+          <div className="mx-auto max-w-5xl text-center">
             <p className="text-xs font-black text-accent uppercase tracking-widest mb-4">
               Ready to Get Connected?
             </p>
