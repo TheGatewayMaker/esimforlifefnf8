@@ -264,7 +264,7 @@ export default function Index() {
                   href="https://wa.me/message/4S3NPHUQR663C1"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-6 py-3 rounded text-sm font-semibold transition-colors duration-200 bg-accent/10 border border-accent/20 text-accent hover:bg-accent/15"
+                  className="inline-flex items-center gap-2 px-6 py-3 rounded text-sm font-black transition-colors duration-200 bg-accent/10 border border-accent/20 text-accent hover:bg-accent/15"
                 >
                   Get referral link on WhatsApp
                   <ArrowRight className="h-4 w-4" />
@@ -273,7 +273,7 @@ export default function Index() {
                   href="https://t.me/esim4lifechatbot"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-6 py-3 rounded text-sm font-semibold transition-colors duration-200 bg-accent/10 border border-accent/20 text-accent hover:bg-accent/15"
+                  className="inline-flex items-center gap-2 px-6 py-3 rounded text-sm font-black transition-colors duration-200 bg-accent/10 border border-accent/20 text-accent hover:bg-accent/15"
                 >
                   Get referral link on Telegram
                   <ArrowRight className="h-4 w-4" />
