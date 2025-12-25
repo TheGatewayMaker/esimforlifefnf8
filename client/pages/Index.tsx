@@ -25,7 +25,10 @@ export default function Index() {
   return (
     <main className="relative bg-background text-foreground">
       {/* Hero Section */}
-      <section id="home" className="relative py-16 sm:py-24 md:py-32 overflow-hidden">
+      <section
+        id="home"
+        className="relative py-16 sm:py-24 md:py-32 overflow-hidden"
+      >
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             {/* Left Content */}
@@ -51,7 +54,9 @@ export default function Index() {
 
               {/* Description */}
               <p className="text-base sm:text-lg text-foreground/75 max-w-lg mb-8 leading-relaxed font-bold">
-                Premium international data eSIM with permanent validity. Works across 150+ countries with full 4G/5G connectivity, compatible with all non-PTA devices.
+                Premium international data eSIM with permanent validity. Works
+                across 150+ countries with full 4G/5G connectivity, compatible
+                with all non-PTA devices.
               </p>
 
               {/* Key Highlight */}
@@ -59,8 +64,13 @@ export default function Index() {
                 <div className="flex items-start gap-3">
                   <Check className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
                   <div>
-                    <p className="font-black text-foreground mb-1">Works on ALL Non-PTA Phones</p>
-                    <p className="text-sm text-foreground/70 font-bold">Full compatibility with international devices • No PTA restrictions • Global support</p>
+                    <p className="font-black text-foreground mb-1">
+                      Works on ALL Non-PTA Phones
+                    </p>
+                    <p className="text-sm text-foreground/70 font-bold">
+                      Full compatibility with international devices • No PTA
+                      restrictions • Global support
+                    </p>
                   </div>
                 </div>
               </div>
@@ -86,35 +96,59 @@ export default function Index() {
             <div className="flex flex-col">
               {/* Price Card */}
               <div className="mb-10 p-8 sm:p-10 rounded border border-accent/20 bg-accent/8">
-                <p className="text-xs font-black text-foreground/60 uppercase tracking-widest mb-4">Lifetime Price</p>
+                <p className="text-xs font-black text-foreground/60 uppercase tracking-widest mb-4">
+                  Lifetime Price
+                </p>
                 <div className="mb-3">
-                  <span className="text-7xl sm:text-8xl lg:text-9xl font-black text-accent">999</span>
-                  <span className="text-4xl sm:text-5xl font-black text-foreground ml-2">PKR</span>
+                  <span className="text-7xl sm:text-8xl lg:text-9xl font-black text-accent">
+                    999
+                  </span>
+                  <span className="text-4xl sm:text-5xl font-black text-foreground ml-2">
+                    PKR
+                  </span>
                 </div>
-                <p className="text-sm sm:text-base text-foreground/70 font-bold">One-time purchase • Lifetime validity</p>
+                <p className="text-sm sm:text-base text-foreground/70 font-bold">
+                  One-time purchase • Lifetime validity
+                </p>
               </div>
 
               {/* Stats Grid */}
               <div className="grid grid-cols-2 gap-4">
                 <div className="stat-card-premium">
                   <Wifi className="h-6 w-6 text-accent mb-3" />
-                  <p className="text-xs font-black text-foreground/60 uppercase mb-2">Connectivity</p>
-                  <p className="text-xl sm:text-2xl font-black text-accent">4G/5G</p>
+                  <p className="text-xs font-black text-foreground/60 uppercase mb-2">
+                    Connectivity
+                  </p>
+                  <p className="text-xl sm:text-2xl font-black text-accent">
+                    4G/5G
+                  </p>
                 </div>
                 <div className="stat-card-premium">
                   <Infinity className="h-6 w-6 text-accent mb-3" />
-                  <p className="text-xs font-black text-foreground/60 uppercase mb-2">Validity</p>
-                  <p className="text-xl sm:text-2xl font-black text-accent">Lifetime</p>
+                  <p className="text-xs font-black text-foreground/60 uppercase mb-2">
+                    Validity
+                  </p>
+                  <p className="text-xl sm:text-2xl font-black text-accent">
+                    Lifetime
+                  </p>
                 </div>
                 <div className="stat-card-premium">
                   <Globe2 className="h-6 w-6 text-accent mb-3" />
-                  <p className="text-xs font-black text-foreground/60 uppercase mb-2">Coverage</p>
-                  <p className="text-xl sm:text-2xl font-black text-accent">150+ Countries</p>
+                  <p className="text-xs font-black text-foreground/60 uppercase mb-2">
+                    Coverage
+                  </p>
+                  <p className="text-xl sm:text-2xl font-black text-accent">
+                    150+ Countries
+                  </p>
                 </div>
                 <div className="stat-card-premium">
                   <Shield className="h-6 w-6 text-accent mb-3" />
-                  <p className="text-xs font-black text-foreground/60 uppercase mb-2">Security</p>
-                  <p className="text-xl sm:text-2xl font-black text-accent">Secure</p>
+                  <p className="text-xs font-black text-foreground/60 uppercase mb-2">
+                    Security
+                  </p>
+                  <p className="text-xl sm:text-2xl font-black text-accent">
+                    Secure
+                  </p>
                 </div>
               </div>
             </div>
@@ -126,13 +160,24 @@ export default function Index() {
       <div className="border-t border-accent/10" />
 
       {/* Features Section */}
-      <section id="features" className="relative py-16 sm:py-24 md:py-32 overflow-hidden">
+      <section
+        id="features"
+        className="relative py-16 sm:py-24 md:py-32 overflow-hidden"
+      >
         <div className="container">
           {/* Section Header */}
           <div className="mb-14 sm:mb-20 max-w-4xl mx-auto text-center">
-            <p className="text-xs font-black text-accent uppercase tracking-widest mb-4">Core Features</p>
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black mb-8">Everything you need</h2>
-            <p className="text-base sm:text-lg text-foreground/70 font-bold">Global compatibility, lifetime validity, referral rewards, seamless device transfers, and premium security. All features designed for reliability and trust.</p>
+            <p className="text-xs font-black text-accent uppercase tracking-widest mb-4">
+              Core Features
+            </p>
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black mb-8">
+              Everything you need
+            </h2>
+            <p className="text-base sm:text-lg text-foreground/70 font-bold">
+              Global compatibility, lifetime validity, referral rewards,
+              seamless device transfers, and premium security. All features
+              designed for reliability and trust.
+            </p>
           </div>
 
           {/* Features Grid */}
@@ -178,7 +223,9 @@ export default function Index() {
       <section className="relative py-16 sm:py-24 md:py-32 overflow-hidden">
         <div className="container">
           <div className="mb-12 sm:mb-16 text-center">
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black">Why Choose eSIM4life?</h2>
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black">
+              Why Choose eSIM4life?
+            </h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
@@ -188,7 +235,8 @@ export default function Index() {
               </div>
               <h3 className="text-2xl font-black mb-3">Trusted & Secure</h3>
               <p className="text-foreground/70 leading-relaxed font-bold">
-                Enterprise-grade security with encrypted connections and secure activation. Your data is protected with international standards.
+                Enterprise-grade security with encrypted connections and secure
+                activation. Your data is protected with international standards.
               </p>
             </div>
 
@@ -198,7 +246,8 @@ export default function Index() {
               </div>
               <h3 className="text-2xl font-black mb-3">Instant Activation</h3>
               <p className="text-foreground/70 leading-relaxed font-bold">
-                Get connected in minutes. No waiting for physical mail, no complicated setup. Activate online and start using immediately.
+                Get connected in minutes. No waiting for physical mail, no
+                complicated setup. Activate online and start using immediately.
               </p>
             </div>
 
@@ -208,7 +257,8 @@ export default function Index() {
               </div>
               <h3 className="text-2xl font-black mb-3">24/7 Support</h3>
               <p className="text-foreground/70 leading-relaxed font-bold">
-                Our dedicated support team is always available on WhatsApp and Telegram to help with any questions or issues.
+                Our dedicated support team is always available on WhatsApp and
+                Telegram to help with any questions or issues.
               </p>
             </div>
 
@@ -218,7 +268,8 @@ export default function Index() {
               </div>
               <h3 className="text-2xl font-black mb-3">Premium Rewards</h3>
               <p className="text-foreground/70 leading-relaxed font-bold">
-                Earn data through referrals and unlock bonus scratch cards. The more you share, the more you earn.
+                Earn data through referrals and unlock bonus scratch cards. The
+                more you share, the more you earn.
               </p>
             </div>
           </div>
@@ -229,15 +280,24 @@ export default function Index() {
       <div className="border-t border-accent/10" />
 
       {/* Refer & Earn Section */}
-      <section id="refer" className="relative py-16 sm:py-24 md:py-32 overflow-hidden">
+      <section
+        id="refer"
+        className="relative py-16 sm:py-24 md:py-32 overflow-hidden"
+      >
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             {/* Left Content */}
             <div>
-              <p className="text-xs font-black text-accent uppercase tracking-widest mb-4">Grow Your Data</p>
-              <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black mb-6">Refer & Earn</h2>
+              <p className="text-xs font-black text-accent uppercase tracking-widest mb-4">
+                Grow Your Data
+              </p>
+              <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black mb-6">
+                Refer & Earn
+              </h2>
               <p className="text-base sm:text-lg text-foreground/70 mb-8 font-bold">
-                Grow your data through our referral program. Earn 500MB for each successful referral with unlimited earning potential. After three referrals, unlock exclusive bonus scratch cards.
+                Grow your data through our referral program. Earn 500MB for each
+                successful referral with unlimited earning potential. After
+                three referrals, unlock exclusive bonus scratch cards.
               </p>
 
               <div className="grid sm:grid-cols-2 gap-4 mb-8">
@@ -255,7 +315,9 @@ export default function Index() {
                 </div>
                 <div className="feature-mini">
                   <Shield className="h-4 w-4 flex-shrink-0" />
-                  <span className="text-sm font-bold">Secure & transparent</span>
+                  <span className="text-sm font-bold">
+                    Secure & transparent
+                  </span>
                 </div>
               </div>
 
@@ -283,7 +345,9 @@ export default function Index() {
 
             {/* Right Content - Process */}
             <div className="rounded border border-accent/20 p-8 sm:p-10 bg-accent/8">
-              <h3 className="text-3xl md:text-4xl font-black mb-8">How it works</h3>
+              <h3 className="text-3xl md:text-4xl font-black mb-8">
+                How it works
+              </h3>
               <ol className="space-y-6">
                 <li className="step flex items-start gap-4">
                   <div className="flex-shrink-0 h-9 w-9 rounded flex items-center justify-center text-sm font-black text-accent bg-accent/12">
@@ -298,7 +362,8 @@ export default function Index() {
                     2
                   </div>
                   <span className="text-base leading-relaxed pt-1 font-bold">
-                    Friend installs the app and enters your referral code (no purchase needed).
+                    Friend installs the app and enters your referral code (no
+                    purchase needed).
                   </span>
                 </li>
                 <li className="step flex items-start gap-4">
@@ -306,7 +371,8 @@ export default function Index() {
                     3
                   </div>
                   <span className="text-base leading-relaxed pt-1 font-bold">
-                    Both get 500MB instantly. After 3 referrals, unlock a bonus scratch card worth up to 300GB.
+                    Both get 500MB instantly. After 3 referrals, unlock a bonus
+                    scratch card worth up to 300GB.
                   </span>
                 </li>
               </ol>
@@ -319,16 +385,27 @@ export default function Index() {
       <div className="border-t border-accent/10" />
 
       {/* CTA Section - Buy */}
-      <section id="buy" className="relative py-16 sm:py-24 md:py-32 overflow-hidden">
+      <section
+        id="buy"
+        className="relative py-16 sm:py-24 md:py-32 overflow-hidden"
+      >
         <div className="container">
           <div className="mx-auto max-w-4xl text-center">
-            <p className="text-xs font-black text-accent uppercase tracking-widest mb-4">Ready to Get Connected?</p>
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black mb-8">Get Your eSIM Today</h2>
+            <p className="text-xs font-black text-accent uppercase tracking-widest mb-4">
+              Ready to Get Connected?
+            </p>
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black mb-8">
+              Get Your eSIM Today
+            </h2>
 
             <div className="mb-8">
               <div className="inline-block">
-                <p className="text-6xl sm:text-7xl lg:text-8xl font-black text-accent mb-3">999 PKR</p>
-                <p className="text-sm font-black text-foreground/70 uppercase tracking-widest">One-time Purchase</p>
+                <p className="text-6xl sm:text-7xl lg:text-8xl font-black text-accent mb-3">
+                  999 PKR
+                </p>
+                <p className="text-sm font-black text-foreground/70 uppercase tracking-widest">
+                  One-time Purchase
+                </p>
               </div>
             </div>
 
@@ -340,7 +417,9 @@ export default function Index() {
             </div>
 
             <p className="text-base sm:text-lg text-foreground/70 max-w-2xl mx-auto mb-10 leading-relaxed font-bold">
-              Simple, secure purchase process. Our support team will guide you through setup and activation. Global connectivity with lifetime validity guaranteed.
+              Simple, secure purchase process. Our support team will guide you
+              through setup and activation. Global connectivity with lifetime
+              validity guaranteed.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 justify-center max-w-2xl mx-auto">
@@ -365,12 +444,18 @@ export default function Index() {
       <div className="border-t border-accent/10" />
 
       {/* Support Section */}
-      <section id="support" className="relative py-16 sm:py-24 md:py-32 overflow-hidden">
+      <section
+        id="support"
+        className="relative py-16 sm:py-24 md:py-32 overflow-hidden"
+      >
         <div className="container">
           <div className="mx-auto max-w-4xl text-center">
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black mb-6">Need Help?</h2>
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black mb-6">
+              Need Help?
+            </h2>
             <p className="text-base sm:text-lg text-foreground/70 mb-10 leading-relaxed font-bold">
-              Our dedicated support team is available 24/7 to help you. Reach out on WhatsApp or Telegram for quick, reliable assistance.
+              Our dedicated support team is available 24/7 to help you. Reach
+              out on WhatsApp or Telegram for quick, reliable assistance.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 justify-center max-w-2xl mx-auto">

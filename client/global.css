@@ -223,11 +223,14 @@
     word-break: break-word;
   }
 
-  span, li, label {
+  span,
+  li,
+  label {
     font-weight: 600;
   }
 
-  a, button {
+  a,
+  button {
     font-weight: 700;
   }
 
