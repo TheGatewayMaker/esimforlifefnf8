@@ -333,15 +333,11 @@ export default function Index() {
             </div>
 
             <div
-              className="rounded-2xl border p-8"
+              className="rounded-lg border p-7"
               style={{
-                background:
-                  "linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%)",
-                backdropFilter: "blur(16px)",
-                WebkitBackdropFilter: "blur(16px)",
-                borderColor: "rgba(255, 215, 0, 0.25)",
-                boxShadow:
-                  "0 8px 24px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.15)",
+                background: "rgba(61, 207, 220, 0.05)",
+                borderColor: "rgba(61, 207, 220, 0.2)",
+                boxShadow: "0 2px 8px rgba(0, 0, 0, 0.08)",
               }}
             >
               <h3 className="text-lg md:text-xl font-black mb-6 tracking-tight">
