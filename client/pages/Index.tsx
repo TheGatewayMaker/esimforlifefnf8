@@ -35,20 +35,18 @@ export default function Index() {
         <div className="container pt-8 sm:pt-12 md:pt-16 lg:pt-20 pb-8 sm:pb-12 md:pb-16 lg:pb-32 grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-20 items-start lg:items-center justify-center">
           {/* Left content */}
           <div className="flex flex-col justify-center lg:order-1">
-            <div className="inline-flex items-center gap-3 sm:gap-4 mb-8 sm:mb-10 w-fit">
-              <div className="h-10 sm:h-12 w-1 bg-gradient-to-b from-accent via-accent to-accent/30 rounded-full" />
-              <span className="text-xs sm:text-sm font-bold text-accent tracking-widest uppercase">
-                Premium Global eSIM
+            <div className="inline-flex items-center gap-2.5 sm:gap-3 mb-6 sm:mb-8 w-fit">
+              <div className="h-0.5 w-6 bg-accent rounded-full" />
+              <span className="text-xs font-bold text-accent tracking-widest uppercase">
+                Premium Global Solution
               </span>
             </div>
 
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black leading-tight tracking-tighter mb-4 sm:mb-5 md:mb-6 lg:mb-7 text-foreground">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black leading-tight tracking-tight mb-3 sm:mb-4 text-foreground">
               Your Lifetime eSIM
             </h1>
-            <p className="text-xl sm:text-2xl text-accent font-bold mb-4 sm:mb-5">
-              <span className="text-gradient text-2xl sm:text-3xl">
-                Zero Expiry
-              </span>
+            <p className="text-lg sm:text-xl text-accent font-bold mb-3 sm:mb-4">
+              Zero Expiry
             </p>
 
             <p className="text-base sm:text-lg md:text-lg text-foreground/80 max-w-xl leading-relaxed mb-8 sm:mb-10 font-medium">
