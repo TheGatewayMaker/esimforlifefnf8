@@ -177,8 +177,8 @@ export default function Index() {
       {/* Benefits Section */}
       <section className="relative py-16 sm:py-24 md:py-32 overflow-hidden">
         <div className="container">
-          <div className="mb-12 sm:mb-16">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black">Why Choose eSIM4life?</h2>
+          <div className="mb-12 sm:mb-16 text-center">
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black">Why Choose eSIM4life?</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
